@@ -7,3 +7,30 @@
 .amazon-footer .amazon-back-to-top a{
     text-decoration: none;
 }
+
+.amazon-footer .amazon-footer-section-one{
+    background-color: var(--secondary);
+}
+
+.amazon-footer .amazon-footer-section-one a{
+   color: white;
+   text-decoration: none;
+   font-size: 14px;
+}
+
+.amazon-footer .amazon-footer-section-one a:hover{
+    text-decoration: underline;
+}
+
+.amazon-footer .amazon-footer-section-one h5{
+    font-family: emberBold;
+    font-size: 16px;
+}
+
+.amazon-footer .amazon-countries{
+    width: 45%;
+}
+
+.amazon-footer .amazon-countries a{
+    font-size: 11px;
+}
