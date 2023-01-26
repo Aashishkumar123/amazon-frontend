@@ -81,3 +81,14 @@
     position: relative;
     top: 0.7rem;
 }
+
+.amazon-category-section{
+    font-family: emberBold;
+    background-color: var(--secondary);
+    font-size: 14px;
+}
+
+.amazon-category-section a{
+    color: white;
+    text-decoration: none;
+}

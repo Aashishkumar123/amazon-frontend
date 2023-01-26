@@ -5,6 +5,7 @@ import { LanguageTab } from "./LanguageTab";
 import { AccountList } from "./AccountList";
 import { ReturnsOrders } from "./ReturnsOrders";
 import { Cart } from "./Cart";
+import { CategorySection } from "./CategorySection";
 import "./navbar.css";
 
 
@@ -22,6 +23,7 @@ export const Navbar = ()=>{
                     <Cart />
                 </div>
             </nav>
+            <main className="amazon-category-section container-fluid py-2 text-white"><CategorySection /></main>
         </>
     )
 }
