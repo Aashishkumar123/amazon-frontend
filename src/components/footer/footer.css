@@ -1,0 +1,9 @@
+.amazon-footer .amazon-back-to-top{
+    background-color: #485769;
+    font-family: emberMedium;
+    font-size: 14px;
+}
+
+.amazon-footer .amazon-back-to-top a{
+    text-decoration: none;
+}
