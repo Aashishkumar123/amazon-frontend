@@ -34,3 +34,17 @@
 .amazon-footer .amazon-countries a{
     font-size: 11px;
 }
+
+.amazon-footer .amazon-footer-section-two{
+    background-color: var(--primary);
+}
+
+.amazon-footer .amazon-footer-section-two a, small{
+    color: white;
+    text-decoration: none;
+    font-size: 11px;
+}
+
+.amazon-footer .amazon-footer-section-two a:hover{
+    text-decoration: underline;
+}
