@@ -1,0 +1,83 @@
+.amazon-nav{
+    background-color: var(--primary);
+    font-family: emberMedium;
+}
+
+.amazon-logo img{
+    width: 95px;
+}
+
+.amazon-logo a{
+    text-decoration: none;
+}
+
+.amazon-logo span{
+    position: relative;
+    bottom: 3px;
+}
+
+.amazon-deliver-to span{
+    font-size: 12px;
+}
+
+.amazon-deliver-to h6{
+    font-size: 15px;
+    font-family: emberBold;
+    line-height: 0.5;
+}
+
+.amazon-search-tab .amazon-select-option{
+    width: 68px;
+    font-size: 12px;
+    background-color: #DADADA;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    outline: 0;
+    border: 0;
+}
+
+.amazon-search-tab .amazon-search-input{
+    width: 39rem;
+    height: 2.7rem;
+    outline: 0;
+    border: 0;
+    font-size: 15px;
+}
+
+.amazon-search-tab .amazon-search-button{
+    outline: 0;
+    border: 0;
+    position: relative;
+    right: 2px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background-color: var(--warning);
+}
+
+.amazon-lanuage-tab{
+    font-family: emberBold;
+    font-size: 15px;
+}
+
+.amazon-lanuage-tab img{
+    width: 20px;
+}
+
+.amazon-account-list, .amazon-returns-order{
+    font-family: emberBold;
+}
+
+.amazon-account-list span, .amazon-returns-order span{
+    font-size: 12px;
+}
+
+.amazon-account-list h5, .amazon-returns-order h5{
+    font-size: 15px;
+    line-height: 0.7;
+}
+
+.amazon-cart-tab span{
+    font-family: emberBold;
+    position: relative;
+    top: 0.7rem;
+}

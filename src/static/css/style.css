@@ -1,0 +1,14 @@
+:root{
+    --primary : #131921;
+    --warning : #F3A847;
+}
+
+@font-face {
+    font-family: emberMedium;
+    src: url('../../amazon_typefaces/Ember/Amazon-Ember-Medium.ttf');
+}
+
+@font-face {
+    font-family: emberBold;
+    src: url('../../amazon_typefaces/Ember/AmazonEmber_Bd.ttf');
+}
