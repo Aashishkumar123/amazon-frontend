@@ -2,6 +2,12 @@
     --primary : #131921;
     --secondary : #232F3E;
     --warning : #F3A847;
+    --info : #C5582D;
+}
+
+@font-face {
+    font-family: emberLight;
+    src: url('../../amazon_typefaces/Ember/AmazonEmber_Lt.ttf');
 }
 
 @font-face {
@@ -12,4 +18,40 @@
 @font-face {
     font-family: emberBold;
     src: url('../../amazon_typefaces/Ember/AmazonEmber_Bd.ttf');
+}
+
+.amazon-btn{
+    outline: 0;
+    border-radius: 2px;
+    font-size: 13px;
+    font-family: emberMedium;
+}
+
+.amz-btn-primary{
+    background-color: #F3CB65;
+    border: 1px solid #A88734;
+}
+
+.amz-btn-primary:hover{
+    background-color:#F1C44A;
+}
+
+.amz-btn-secondary{
+    background-color: #F0F1F5;
+    border: 1px solid #A2A6AC;
+}
+
+.amz-btn-secondary:hover{
+    background-color:#E0E3E8;
+}
+
+.amz-input{
+    width: 100%;
+    font-size: 13px;
+    outline: none;
+    height: 2rem;
+}
+
+.amz-input:focus{
+    border: 2px solid var(--warning);
 }

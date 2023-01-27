@@ -63,6 +63,11 @@
     width: 20px;
 }
 
+.amazon-account-list a{
+    color: white;
+    text-decoration: none;
+}
+
 .amazon-account-list, .amazon-returns-order{
     font-family: emberBold;
 }
