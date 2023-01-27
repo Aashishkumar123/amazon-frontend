@@ -1,23 +1,25 @@
 import logo from "../../static/images/amazon-logo.png";
 import "./auth.css";
 import { Link } from "react-router-dom";
+import { AuthFooter } from "./AuthFooter";
 
 
 export const Signin = ()=>{
+    document.body.style.backgroundColor ="#ffff";
     return(
         <>
             <div className="shadow-sm pb-4 border-bottom">
-                <div className="amazon-sign-in mx-auto mt-1">
-                    <div className="text-center amazon-logo-signin">
+                <div className="amazon-auth mx-auto mt-1">
+                    <div className="text-center amazon-logo-auth">
                         <Link to="/" style={{textDecoration:"none"}}>
                             <img src={logo} alt="amazon-logo" className="img-fluid" />
                             <span className="dot-in">.in</span>
                         </Link>
                     </div>
-                    <div className="sign-in-form border p-4">
+                    <div className="auth-form border p-4">
                         <h3>Sign in</h3>
                         <form action="" className="mt-3">
-                            <label htmlFor="email">Email or mobile phone number</label>
+                            <label htmlFor="email" className="amz-label">Email or mobile phone number</label>
                             <input type="email" id="email" className="amz-input" />
                             <div className="d-grid mt-3">
                                 <button className="py-1 amazon-btn amz-btn-primary">Continue</button>
@@ -41,19 +43,12 @@ export const Signin = ()=>{
                             <div className="border-top" style={{width:"7rem"}}></div>
                         </div>
                         <div className="d-grid mt-2">
-                                <button className="py-1 amazon-btn amz-btn-secondary">Create your Amazon account</button>
+                                <Link to="/ap/register" className="py-1 amazon-btn amz-btn-secondary">Create your Amazon account</Link>
                             </div>
                     </div>
                 </div>
             </div>
-            <div className="mt-4 text-center auth-footer">
-                <div>
-                    <Link to="">Conditions of Use</Link>
-                    <Link to="" className="px-3">Privacy Notice</Link>
-                    <Link to="">Help</Link>
-                </div>
-                <span className="mt-3 auth-footer-copyright text-muted">© 1996-2023, Amazon.com, Inc. or its affiliates</span>
-            </div>
+            <AuthFooter />
         </>
     )
 }

@@ -1,12 +1,12 @@
-.amazon-sign-in{
+.amazon-auth{
     width: 25%;
 }
 
-.amazon-sign-in .amazon-logo-signin img{
+.amazon-auth .amazon-logo-auth img{
     width: 130px;
 }
 
-.amazon-sign-in .amazon-logo-signin .dot-in{
+.amazon-auth .amazon-logo-auth .dot-in{
     position: relative;
     right: 0.7rem;
     bottom: 2px;
@@ -15,43 +15,42 @@
     font-family: emberMedium;
 }
 
-.amazon-sign-in .sign-in-form{
+.amazon-auth .auth-form{
     border-radius: 5px;
 }
 
-.amazon-sign-in .sign-in-form h3{
+.amazon-auth .auth-form h3{
     font-family: emberMedium;
     color: black;
 }
 
-.amazon-sign-in .sign-in-form label{
-    font-family: emberBold;
-    color: black;
-    font-size: 13px;
-}
-
-.amazon-sign-in .sign-in-form .t-c{
+.amazon-auth .auth-form .t-c{
    font-size: 11.5px;
    font-family: emberMedium;
 }
 
-.amazon-sign-in .sign-in-form a{
+.amazon-auth .auth-form a{
     text-decoration: none;
 }
 
-.amazon-sign-in .sign-in-form a:hover, .auth-footer a:hover{
+.amazon-auth .auth-form a:hover, .auth-footer a:hover{
     color: var(--info);
     text-decoration: underline;
 }
 
-.amazon-sign-in .sign-in-form .amz-need-help{
+.amazon-auth .auth-form .amz-need-help{
     font-size: 13px;
     font-family: emberMedium;
 }
 
-.amazon-sign-in .amz-new-account span{
+.amazon-auth .amz-new-account span{
     font-size: 12px;
     font-family: emberMedium;
+}
+
+.amazon-auth .amz-help-text{
+    font-size: 12.5px;
+    font-family: emberMedium;   
 }
 
 .auth-footer a{

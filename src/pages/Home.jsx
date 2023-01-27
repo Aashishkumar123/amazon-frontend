@@ -18,10 +18,11 @@ import img12 from "../static/images/372x232_4_Low._SY116_CB670263840_.jpg";
 
 
 export const Home = ()=>{
+    document.body.style.backgroundColor = "#E3E6E6";
     return(
         <>
             <Navbar />
-            <section className="amazon-banner" style={{height:"200px"}}>
+            <section className="amazon-banner" style={{height:"230px"}}>
                 <img src={banner} alt="amz-banner-img" className="img-fluid" />
             </section>
             <main className="container-fluid product-card-main">

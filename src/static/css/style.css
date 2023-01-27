@@ -25,6 +25,8 @@
     border-radius: 2px;
     font-size: 13px;
     font-family: emberMedium;
+    color: black;
+    text-decoration: none;
 }
 
 .amz-btn-primary{
@@ -34,6 +36,7 @@
 
 .amz-btn-primary:hover{
     background-color:#F1C44A;
+    color: black;
 }
 
 .amz-btn-secondary{
@@ -43,6 +46,7 @@
 
 .amz-btn-secondary:hover{
     background-color:#E0E3E8;
+    color: black;
 }
 
 .amz-input{
@@ -50,8 +54,15 @@
     font-size: 13px;
     outline: none;
     height: 2rem;
+    font-family: emberMedium;
 }
 
 .amz-input:focus{
     border: 2px solid var(--warning);
+}
+
+.amz-label{
+    font-family: emberBold;
+    color: black;
+    font-size: 13px;
 }
