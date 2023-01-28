@@ -1,0 +1,37 @@
+.amz-account{
+    width: 75%;
+}
+
+.amz-account h3{
+    font-family: emberMedium;
+    color: black;
+}
+
+.amz-account a{
+    text-decoration: none;
+}
+
+.amz-account a:hover .amz-account-card{
+    background-color: #EEEEEE;
+}
+
+.amz-account .amz-account-card{
+    display: flex;
+    align-items: flex-start;
+    border-radius: 8px;
+}
+
+.amz-account .amz-account-card img{
+    width: 60px;
+}
+
+.amz-account .amz-account-card h5{
+    font-family: emberMedium;
+    color: black;
+    font-size: 18px;
+}
+
+.amz-account .amz-account-card span{
+    font-family: emberMedium;
+    font-size: 14px;
+}

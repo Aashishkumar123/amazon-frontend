@@ -55,6 +55,7 @@
     outline: none;
     height: 2rem;
     font-family: emberMedium;
+    padding : 0 0.5rem;
 }
 
 .amz-input:focus{
