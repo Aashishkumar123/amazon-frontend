@@ -15,7 +15,7 @@ export const AccountHome = ()=>{
                 <AccountCards img={Box} title='Your Orders' desc='Track, return, or buy things again' link='' />
                 <AccountCards img={Lock} title='Login & security' desc='Edit login, name and mobile number' link='' />
                 <AccountCards img={Prime} title='Prime' desc='View benefits and payment settings' link='' />
-                <AccountCards img={Location} title='Your Addresses' desc='Edit addresses for orders and gifts' link='' />
+                <AccountCards img={Location} title='Your Addresses' desc='Edit addresses for orders and gifts' link='/gp/account/address' />
                 <AccountCards img={Payment} title='Payment options' desc='Edit or add payment methods' link='' />
                 <AccountCards img={Amz_Payment} title='Amazon Pay balance' desc='Add money to your balance' link='' />
                 <AccountCards img={Support} title='Contact Us' desc='' link='' />

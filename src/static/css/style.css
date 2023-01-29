@@ -20,6 +20,11 @@
     src: url('../../amazon_typefaces/Ember/AmazonEmber_Bd.ttf');
 }
 
+.h3{
+    font-family: emberMedium;
+    color: #0F1111;
+}
+
 .amazon-btn{
     outline: 0;
     border-radius: 2px;
@@ -66,4 +71,12 @@
     font-family: emberBold;
     color: black;
     font-size: 13px;
+}
+
+.amz-breadcrumb-link{
+    text-decoration: none;
+}
+
+.amz-breadcrumb-active{
+    color: var(--info);
 }

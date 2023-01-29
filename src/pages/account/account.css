@@ -1,4 +1,4 @@
-.amz-account{
+.amz-account, .amz-address{
     width: 75%;
 }
 
@@ -34,4 +34,49 @@
 .amz-account .amz-account-card span{
     font-family: emberMedium;
     font-size: 14px;
+}
+
+.amz-address{
+    width: 70%;
+}
+
+.amz-address nav ol li{
+    font-family: emberMedium;
+    font-size: 14px;
+}
+
+.amz-address .amz-add-address{
+    border: 2px dashed #C7C7C7;
+    border-radius: 7px;
+}
+
+.amz-address .amz-add-address h3{
+   font-family: emberBold;
+}
+
+.amz-address .amz-address-cards .amz-card-header span{
+    font-size: 11.5px;
+    font-family: emberMedium;
+}
+
+.amz-address .amz-address-cards .amz-card-header img{
+    width: 50px;
+}
+
+.amz-address .amz-address-cards .amz-card-body{
+    font-size: 14px;
+    font-family: emberMedium;
+}
+
+.amz-address .amz-address-cards .amz-card-body h6{
+    font-family: emberBold;
+}
+
+.amz-address .amz-address-cards .amz-card-body a{
+    color : #43B0ED;
+    text-decoration: none;
+}
+
+.amz-address .amz-address-cards .amz-card-body a:hover{
+    color : var(--info);
 }
