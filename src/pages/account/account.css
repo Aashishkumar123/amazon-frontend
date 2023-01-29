@@ -80,3 +80,20 @@
 .amz-address .amz-address-cards .amz-card-body a:hover{
     color : var(--info);
 }
+
+.amz-address-form{
+    width: 35%;
+}
+
+.amz-address-form form{
+    font-family: emberMedium;
+}
+
+.amz-address-form form select{
+    width: 100%;
+    background-color: #F0F2F1;
+    outline: 0;
+    border: 0;
+    border-radius: 10px;
+    font-size: 13px;
+}

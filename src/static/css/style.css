@@ -20,6 +20,14 @@
     src: url('../../amazon_typefaces/Ember/AmazonEmber_Bd.ttf');
 }
 
+.bold-text{
+    font-family: emberBold;
+}
+
+.medium-text{
+    font-family: emberMedium;
+}
+
 .h3{
     font-family: emberMedium;
     color: #0F1111;
@@ -73,10 +81,16 @@
     font-size: 13px;
 }
 
+.amz-breadcrumb{
+    font-family: emberMedium;
+    font-size: 15px;
+}
+
 .amz-breadcrumb-link{
     text-decoration: none;
 }
 
 .amz-breadcrumb-active{
+    font-family: emberMedium;
     color: var(--info);
 }
