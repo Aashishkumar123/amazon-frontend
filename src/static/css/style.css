@@ -20,17 +20,40 @@
     src: url('../../amazon_typefaces/Ember/AmazonEmber_Bd.ttf');
 }
 
+@font-face {
+    font-family: emberExtraBold;
+    src: url('../../amazon_typefaces/Ember/AmazonEmber_He.ttf');
+}
+
+@font-face {
+    font-family: emberNormal;
+    src: url('../../amazon_typefaces/Ember/AmazonEmber_Rg.ttf');
+}
+
 .bold-text{
     font-family: emberBold;
+    color: #0F1111;
 }
 
 .medium-text{
     font-family: emberMedium;
 }
 
+.normal-text{
+    font-family: emberNormal;
+}
+
 .h3{
     font-family: emberMedium;
     color: #0F1111;
+}
+
+.amz-fs-12{
+    font-size: 12px;
+}
+
+.amz-fs-13{
+    font-size: 13px;
 }
 
 .amazon-btn{
@@ -62,6 +85,17 @@
     color: black;
 }
 
+.amz-btn-dark{
+    background-color: #2F3333;
+    color: white;
+    border: 1px solid #0F1111;
+}
+
+.amz-btn-dark:hover{
+    background-color:#0F1111;
+    color: white;
+}
+
 .amz-input{
     width: 100%;
     font-size: 13px;
@@ -90,7 +124,23 @@
     text-decoration: none;
 }
 
+.amz-breadcrumb-link:hover{
+    text-decoration: underline;
+    color: var(--info);
+}
+
 .amz-breadcrumb-active{
     font-family: emberMedium;
+    color: var(--info);
+}
+
+.amz-link{
+    text-decoration: none;
+    font-family: emberMedium;
+    font-size: 13px;
+}
+
+.amz-link:hover{
+    text-decoration: underline;
     color: var(--info);
 }

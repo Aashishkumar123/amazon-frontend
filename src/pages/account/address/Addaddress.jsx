@@ -77,7 +77,7 @@ export const Addaddress = ()=>{
                         </select>
                     </div>
                     <div className="mt-4">
-                        <button className="amz-btn amz-btn-primary rounded btn shadow">Add Address</button>
+                        <button className="amazon-btn amz-btn-primary rounded btn shadow">Add Address</button>
                     </div>
                 </form>
             </div>

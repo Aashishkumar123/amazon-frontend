@@ -34,6 +34,8 @@ export const AddressCards = (props)=>{
                         <Link to="">Edit</Link>
                         <span className="px-2"> | </span>
                         <Link to="">Remove</Link>
+                        <span className="px-2"> | </span>
+                        <Link to="">Set as Default</Link>
                     </div>
                 </div>
             </div>

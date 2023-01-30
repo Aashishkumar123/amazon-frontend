@@ -89,11 +89,46 @@
     font-family: emberMedium;
 }
 
-.amz-address-form form select{
+.amz-address-form form select, .amz-orders select{
     width: 100%;
     background-color: #F0F2F1;
     outline: 0;
     border: 0;
     border-radius: 10px;
     font-size: 13px;
+}
+
+.amz-orders{
+    width: 60%;
+}
+
+.amz-orders input{
+    width: 300px;
+    font-family: emberBold;
+}
+
+.amz-orders button{
+    border-radius: 15px;
+    font-size: 13px;
+    font-family: emberMedium;
+}
+
+.amz-orders select{
+    background-color: #F0F2F1;
+    outline: 0;
+    border: 0;
+    border-radius: 10px;
+    font-size: 13px;
+    width: 100px;
+}
+
+.amz-orders .amz-order-card{
+    border-radius: 10px;
+}
+
+.amz-orders .amz-order-card .amz-order-card-header{
+    font-size: 13px;
+    font-family: emberMedium;
+    background-color: #F0F2F2;
+    color: #636666;
 }
