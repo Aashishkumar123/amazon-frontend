@@ -8,7 +8,11 @@ import productimage2 from "../../static/images/61+infHNFDL._AC_AA180_.jpg";
 import productimage3 from "../../static/images/61h2xBJt6qL._AC_AA180_.jpg";
 import productimage4 from "../../static/images/61jMf1cjadL._AC_AA180_.jpg";
 import productimage5 from "../../static/images/61fPT0y6UkL._AC_AA180_.jpg";
-
+import { SponsoredProductsCard } from "../../components/cart/CartHome";
+import productimage6 from "../../static/images/61QzpcWCSML._AC_SR200,200_.jpg";
+import productimage7 from "../../static/images/61nZ-xKh8lL._AC_SR200,200_.jpg";
+import productimage8 from "../../static/images/61ZuHMrKQFL._AC_SR200,200_.jpg";
+import productimage9 from "../../static/images/71z7Ja91MhL._AC_SR200,200_.jpg";
 
 export const Cart = ()=>{
 
@@ -47,6 +51,20 @@ export const Cart = ()=>{
                             <div className="d-grid mt-3">
                                 <button className="amz-btn medium-text amz-fs-13 amz-btn-primary shadow-sm py-2" style={{backgroundColor:"#F7CA47",border:"none",borderRadius:"10px"}}>Proceed to Buy</button>
                             </div>
+                        </div>
+                        <div className="bg-white p-4 mt-3">
+                            <h6 className="bold-text">Products related to items in your cart</h6>
+                            <span className="amz-fs-11 normal-text">Sponsored</span>
+                            <SponsoredProductsCard img={productimage6} />
+                            <SponsoredProductsCard img={productimage7} />
+                            <SponsoredProductsCard img={productimage8} />
+                            <SponsoredProductsCard img={productimage9} />
+                            <SponsoredProductsCard img={productimage6} />
+                            <SponsoredProductsCard img={productimage7} />
+                            <SponsoredProductsCard img={productimage8} />
+                            <SponsoredProductsCard img={productimage9} />
+                            <SponsoredProductsCard img={productimage6} />
+                            <SponsoredProductsCard img={productimage7} />
                         </div>
                     </div>
                 </div>
