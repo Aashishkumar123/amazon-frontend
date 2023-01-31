@@ -37,15 +37,21 @@
 
 .medium-text{
     font-family: emberMedium;
+    color: #0F1111;
 }
 
 .normal-text{
     font-family: emberNormal;
+    color: #0F1111;
 }
 
 .h3{
     font-family: emberMedium;
     color: #0F1111;
+}
+
+.amz-fs-11{
+    font-size: 11px;
 }
 
 .amz-fs-12{
@@ -54,6 +60,10 @@
 
 .amz-fs-13{
     font-size: 13px;
+}
+
+.amz-fs-14{
+    font-size: 14px;
 }
 
 .amazon-btn{

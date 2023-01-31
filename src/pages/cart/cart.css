@@ -1,0 +1,12 @@
+.amz-cart .amz-cart-products .amz-cart-product-details select{
+    font-family: emberNormal;
+    background-color: #F0F2F1;
+    outline: 0;
+    border: 1px solid #C7C7C7;
+    border-radius: 10px;
+    font-size: 13px;
+}
+
+.amz-cart .amz-cart-products .amz-cart-product-details .amz-cart-product-details-body{
+    width: 700px;
+}

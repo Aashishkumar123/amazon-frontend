@@ -12,6 +12,7 @@ import { Account } from './pages/account/Account';
 import { Address } from './pages/account/address/Address';
 import { Addaddress } from './pages/account/address/Addaddress';
 import { Orders } from './pages/account/orders/Orders';
+import { Cart } from './pages/cart/Cart';
 
 
 function App() {
@@ -26,6 +27,7 @@ function App() {
           <Route path="/gp/account/address" element={<Address />} />
           <Route path="/gp/account/address/add" element={<Addaddress />} />
           <Route path="/gp/account/orders" element={<Orders />} />
+          <Route path="/gp/cart" element={<Cart />} />
         </Routes>
       </BrowserRouter>
     </>
