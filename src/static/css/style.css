@@ -45,6 +45,11 @@
     color: #0F1111;
 }
 
+.extra-bold-text{
+    font-family: emberExtraBold;
+    color: #0F1111;
+}
+
 .h3{
     font-family: emberMedium;
     color: #0F1111;

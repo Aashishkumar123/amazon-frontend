@@ -48,8 +48,8 @@ export const Cart = ()=>{
                             <h6><span className="medium-text">Subtotal (5 items):</span> <span className="bold-text">$75.00</span></h6>
                             <input type="checkbox" checked />
                             <label htmlFor="" className="amz-fs-11 normal-text px-2">This will be a gift Learn more</label>
-                            <div className="d-grid mt-3">
-                                <button className="amz-btn medium-text amz-fs-13 amz-btn-primary shadow-sm py-2" style={{backgroundColor:"#F7CA47",border:"none",borderRadius:"10px"}}>Proceed to Buy</button>
+                            <div className="d-grid mt-3 text-center">
+                                <Link to="/gp/checkout" className="amz-btn amz-link medium-text amz-fs-13 amz-btn-primary shadow-sm py-2" style={{backgroundColor:"#F7CA47",border:"none",borderRadius:"10px"}}>Proceed to Buy</Link>
                             </div>
                         </div>
                         <div className="bg-white p-4 mt-3">

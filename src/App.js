@@ -13,6 +13,7 @@ import { Address } from './pages/account/address/Address';
 import { Addaddress } from './pages/account/address/Addaddress';
 import { Orders } from './pages/account/orders/Orders';
 import { Cart } from './pages/cart/Cart';
+import { Checkout } from './pages/checkout/Checkout';
 
 
 function App() {
@@ -28,6 +29,7 @@ function App() {
           <Route path="/gp/account/address/add" element={<Addaddress />} />
           <Route path="/gp/account/orders" element={<Orders />} />
           <Route path="/gp/cart" element={<Cart />} />
+          <Route path="/gp/checkout" element={<Checkout />} />
         </Routes>
       </BrowserRouter>
     </>

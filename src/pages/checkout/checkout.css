@@ -1,0 +1,18 @@
+.amz-checkout-nav{
+    background-color: #FDFDFD;
+}
+
+.amz-checkout-nav img{
+    width: 120px;
+}
+
+.amz-checkout-nav .dot-in{
+    text-decoration: none;
+    position: relative;
+    right: 0.5rem;
+    bottom: 2px;
+}
+
+.amz-checkout{
+    width: 80%;
+}
